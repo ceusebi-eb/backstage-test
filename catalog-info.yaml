@@ -2,7 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "created-component"
+  title: "A repo created by a backstage template"
+  description: "I clicked some buttons and this repo was created"
+  annotations:
+    github.com/project-slug: ceusebi-eb/backstage-test
+    circleci.com/project-slug: github/eventbrite/kubernetes-devenv
 spec:
   type: service
-  owner: user:ceusebi-eb
-  lifecycle: experimental
+  owner: user:guests
+  lifecycle: experimental  
