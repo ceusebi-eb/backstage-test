@@ -4,5 +4,5 @@ metadata:
   name: "created-component"
 spec:
   type: service
-  owner: user:guest
+  owner: user:ceusebi-eb
   lifecycle: experimental
