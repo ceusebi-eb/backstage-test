@@ -9,5 +9,5 @@ metadata:
     circleci.com/project-slug: github/eventbrite/kubernetes-devenv
 spec:
   type: service
-  owner: user:guests
+  owner: user:default/ceusebi-eb
   lifecycle: experimental  
